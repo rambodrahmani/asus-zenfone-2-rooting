@@ -10,6 +10,23 @@ Dentro sono presenti sia gli strumenti (Windows e Mac OS X) che i file da utiliz
 ####Linux
 
 Per Linux dovrete installare android-tools:
+
 Arch:	https://wiki.archlinux.org/index.php/Android
+
 Debian:	https://packages.debian.org/sid/android-tools-adb
+
 Ubuntu:	https://launchpad.net/ubuntu/+source/android-tools
+
+### Abilitare USB Debugging
+
+Al percorso
+
+System Settings > About > Software information
+
+Clickate 7 volte su "Build number" sino a che non apparirà il messaggio che indica l'attivazione della modalità Developer.
+
+Dopo di che al percorso
+
+System Settings > Developer options, sezione "Debugging"
+
+trovate l'opzione per abilitare "USB debugging" per dispositivo.
