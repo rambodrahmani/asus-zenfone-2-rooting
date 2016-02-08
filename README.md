@@ -27,8 +27,10 @@ Dopo di che al percorso System Settings > Developer options, sezione "Debugging"
 
 Collegare l'Asus Zenfone 2 al vostro computer e utilizzare il seguente comando per assicurarvi che il dispositivo sia stato riconosciuto.
 
-```
+```bash
 
 adb devices
 
 ```
+
+
