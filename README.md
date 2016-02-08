@@ -4,7 +4,7 @@ Istruzioni minimali per il Rooting dell'Asus Zenfone 2 (ASUS_Z00AD)
 ### Avvertenze
 ####ROOT AT YOUR OWN RISK!
 
-####N.B: Una volta eseguito il procedimento di Rooting del dispositivo, non potrete installare aggiornamenti di sistema senza aver precedentemente eseguito l'Unroot. L'installazione di un aggiornamento di sistema risulterà nell'inutilizzabilità del vostro dispositivo con conseguente perdita dei dati.
+#####N.B: Una volta eseguito il procedimento di Rooting del dispositivo, non potrete installare aggiornamenti di sistema senza aver precedentemente eseguito l'Unroot. L'installazione di un aggiornamento di sistema risulterà nell'inutilizzabilità del vostro dispositivo con conseguente perdita dei dati.
 
 
 ### Prerequisiti
