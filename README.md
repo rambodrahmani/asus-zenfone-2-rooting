@@ -1,6 +1,12 @@
 # Asus Zenfone 2 Rooting
 Istruzioni minimali per il Rooting dell'Asus Zenfone 2 (ASUS_Z00AD)
 
+### Avvertenze
+####ROOT AT YOUR OWN RISK!
+
+####N.B: Una volta eseguito il procedimento di Rooting del dispositivo, non potrete installare aggiornamenti di sistema senza aver precedentemente eseguito l'Unroot. L'installazione di un aggiornamento di sistema risulterà nell'inutilizzabilità del vostro dispositivo con conseguente perdita dei dati.
+
+
 ### Prerequisiti
 ####Asus_Zenfone_2_Rooting_Files.zip
 
@@ -56,6 +62,27 @@ adb reboot-bootloader
 (adb reboot-bootloader: reboots the device into the bootloader.)
 
 Il risultato che si ottiene è il seguente:
-![Alt text](normal-boot.jpg "Optional title")
 
+![Alt text](normal-boot.jpg "Asus Zenfone 2 Bootloader")
 
+A questo punto eseguiti comandi uno dopo l'altro aspettando che ciascun termini prima di eseguire il successivo:
+
+N.B: i comandi sono immessi con la cartella Asus_Zenfone_2_Rooting_Files come direttorio corrente:
+
+```bash
+sudo fastboot flash /system/bin/resize2fs magic
+sudo fastboot flash /system/bin/tune2fs busybox
+sudo fastboot flash /system/bin/partlink supersu.tgz
+sudo fastboot oem start_partitioning
+sudo fastboot flash /system/bin/logcat installer
+sudo fastboot oem stop_partitioning
+sudo fastboot reboot
+```
+
+Il procedimento di Rooting è terminato, il dispositivo si avvierà normalmente dopo l'ultimo comando.
+
+Come ultima verifica dell'avvenuto Rooting del dispositivo, controllate che l'APP SuperSU sia installata e funzionante. Avviatela, sarà richiesto di eseguire l'aggiornamento.
+
+### Riferimenti
+
+- http://forum.xda-developers.com/zenfone2/general/root-newbie-root-instructions-zenfone-2-t3114063
