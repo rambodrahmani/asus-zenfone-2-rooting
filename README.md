@@ -19,14 +19,16 @@ Ubuntu:	https://launchpad.net/ubuntu/+source/android-tools
 
 ### Abilitare USB Debugging
 
-Al percorso
+Al percorso System Settings > About > Software information fate click 7 volte su "Build number" sino a che non apparirà il messaggio che indica l'attivazione della modalità Developer.
 
-System Settings > About > Software information
+Dopo di che al percorso System Settings > Developer options, sezione "Debugging", trovate l'opzione per abilitare "USB debugging" per dispositivo.
 
-Clickate 7 volte su "Build number" sino a che non apparirà il messaggio che indica l'attivazione della modalità Developer.
+### Collegamento USB
 
-Dopo di che al percorso
+Collegare l'Asus Zenfone 2 al vostro computer e utilizzare il seguente comando per assicurarvi che il dispositivo sia stato riconosciuto.
 
-System Settings > Developer options, sezione "Debugging"
+```
 
-trovate l'opzione per abilitare "USB debugging" per dispositivo.
+adb devices
+
+```
