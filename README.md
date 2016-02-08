@@ -26,6 +26,7 @@ Dopo di che al percorso System Settings > Developer options, sezione "Debugging"
 ### Collegamento USB
 
 Collegare l'Asus Zenfone 2 al vostro computer e utilizzare i seguenti comandi per assicurarvi che il dispositivo sia stato riconosciuto.
+1)
 ```bash
 lsusb
 ```
@@ -35,6 +36,7 @@ Output
 Bus 002 Device 010: ID ****:**** ASUSTek Computer, Inc.
 ...
 ```
+2)
 ```bash
 adb devices
 ```
@@ -44,3 +46,10 @@ List of devices attached
 F7A******419    device
 ```
 
+### Rooting del Dispositivo
+
+Eseguite il seguente comando e attendete che il dispositivo si riavvii:
+```bash
+adb reboot-bootloader
+```
+adb reboot-bootloader: reboots the device into the bootloader.
