@@ -89,7 +89,7 @@ In caso di problemi, possiamo riportare l'Asus Zenfone alle impostazioni di fabr
 
 Scaricate i file necessari che trovate nella seguente cartella:
 
-Estraete il contenuti di Z00A_WW_2.20.40.164.zip, mentre il file UL-Z00A-WW-2.20.40.164-user.zip non dovrete extrarlo.
+Estraete i contenuti di Z00A_WW_2.20.40.164.zip (dentro questa cartella dovrete anche estrarre "system.img.zip"), mentre il file UL-Z00A-WW-2.20.40.164-user.zip non dovrete extrarlo.
 
 Spegnete completamente il dispositivo.
 
@@ -103,9 +103,9 @@ Utilizzante il pulsante del volume per scegliere "RECOVERY MODE" e premete il ta
 
 Il dispositivo si riavvierà in modalità Recovery come nella seguente immagine:
 
-![Alt text](recovery-mode-2.jpg.jpg "Asus Zenfone 2 Recovery Mode")
+![Alt text](recovery-mode-2.jpg "Asus Zenfone 2 Recovery Mode")
 
-######### N.B: potreste ottenere una schermata di errore a questo punto. Per risolvere e avviare la Recovery Mode, tenete premuto il tasto di accesione e premete il pulsante "Volume UP" una volta, apparirà la Recovery Mode.
+###### N.B: potreste ottenere una schermata di errore a questo punto. Per risolvere e avviare la Recovery Mode, tenete premuto il tasto di accesione e premete il pulsante "Volume UP" una volta, apparirà la Recovery Mode.
 
 Selezionate "wipe data/factory reset" e date conferma con il tasto di accensione.
 
@@ -115,6 +115,16 @@ Una volta fatto, utilizzate "reboot to bootloader" per ritornare al bootloader.
 
 Una volta che il dispositivo si è riavviato, utilizziamo i seguenti comandi per flashare alcune partizioni con i file scaricati.
 
+I comandi seguenti sono relativi alla cartella "Z00A_WW_2.20.40.164":
+
+```bash
+fastboot flash system system.img
+fastboot flash droidboot droidboot.img
+fastboot flash boot boot.img
+fastboot flash recovery recovery.img
+```
+
+###### Controllate che i comandi siano andati tutti a buon fine.
 
 ### Riferimenti
 
