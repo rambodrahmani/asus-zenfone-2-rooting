@@ -83,6 +83,40 @@ Il procedimento di Rooting è terminato, il dispositivo si avvierà normalmente 
 
 Come ultima verifica dell'avvenuto Rooting del dispositivo, controllate che l'APP SuperSU sia installata e funzionante. Avviatela, sarà richiesto di eseguire l'aggiornamento.
 
+### Reset
+
+In caso di problemi, possiamo riportare l'Asus Zenfone alle impostazioni di fabrica.
+
+Scaricate i file necessari che trovate nella seguente cartella:
+
+Estraete il contenuti di Z00A_WW_2.20.40.164.zip, mentre il file UL-Z00A-WW-2.20.40.164-user.zip non dovrete extrarlo.
+
+Spegnete completamente il dispositivo.
+
+Entrate in modalità bootloader avviando il dispositivo con la combinazione "Pulsante Accesnione + Pulsante Volume Up". Teneteli premuti sino a che il dispositivo si riavvia in modalità bootleader. Dovete rilasciare il pulsante di accensione quando il dispositivo vibra e continuare a tenere premuto il pulsante volume up sino a quando apparità la schermata del bootloader sul dispositivo.
+
+Una volta in modalità bootloeader, collegate il dispositivo al computer tramite il cavo USB per poter utilizzare i comandi fastboot e adb.
+
+Utilizzante il pulsante del volume per scegliere "RECOVERY MODE" e premete il tasto di accensione per confermare.
+
+![Alt text](recovery-mode.jpg "Asus Zenfone 2 Start Recovery Mode")
+
+Il dispositivo si riavvierà in modalità Recovery come nella seguente immagine:
+
+![Alt text](recovery-mode-2.jpg.jpg "Asus Zenfone 2 Recovery Mode")
+
+######### N.B: potreste ottenere una schermata di errore a questo punto. Per risolvere e avviare la Recovery Mode, tenete premuto il tasto di accesione e premete il pulsante "Volume UP" una volta, apparirà la Recovery Mode.
+
+Selezionate "wipe data/factory reset" e date conferma con il tasto di accensione.
+
+Ugualmente cancelliamo anche la partizione di cache utilizzando la funzione "wipa cache partition".
+
+Una volta fatto, utilizzate "reboot to bootloader" per ritornare al bootloader.
+
+Una volta che il dispositivo si è riavviato, utilizziamo i seguenti comandi per flashare alcune partizioni con i file scaricati.
+
+
 ### Riferimenti
 
 - http://forum.xda-developers.com/zenfone2/general/root-newbie-root-instructions-zenfone-2-t3114063
+- http://www.androidiani.com/forum/asus-zenfone-2/495130-guida-su-come-riportare-zenfone-2-firmware-stock-e-cancellare-twrp.html
