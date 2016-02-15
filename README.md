@@ -88,6 +88,7 @@ Come ultima verifica dell'avvenuto Rooting del dispositivo, controllate che l'AP
 In caso di problemi, possiamo riportare l'Asus Zenfone alle impostazioni di fabrica.
 
 Scaricate i file necessari che trovate nella seguente cartella:
+https://mega.nz/#F!6NghzDxD!_aYe4M8VfPU92-2cqg7f7w
 
 Estraete i contenuti di Z00A_WW_2.20.40.164.zip (dentro questa cartella dovrete anche estrarre "system.img.zip"), mentre il file UL-Z00A-WW-2.20.40.164-user.zip non dovrete extrarlo.
 
@@ -125,6 +126,20 @@ fastboot flash recovery recovery.img
 ```
 
 ###### Controllate che i comandi siano andati tutti a buon fine.
+
+Utilizzante il pulsante del volume per scegliere "RECOVERY MODE" e premete il tasto di accensione per confermare, come avete fatto precedentemente.
+
+Una volta in modalità recovery, scegliete "apply update from ADB" e confermate con il tasto di accensione. Con il dispositivo collegato via USB, date il seguente comando:
+
+```bash
+adb sideload UL-Z00A-WW-2.20.40.164-user.zip
+```
+
+Attendete che termini con successo, e utilizzate il comando "reboot system now" dal menu recovery.
+
+Il dispositivo si riavvierà con le caratteristiche di fabbrica.
+
+###### L'avvio richiederà più tempo del solito. Attendete.
 
 ### Riferimenti
 
