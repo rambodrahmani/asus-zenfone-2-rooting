@@ -63,7 +63,7 @@ adb reboot-bootloader
 
 Il risultato che si ottiene è il seguente:
 
-![Alt text](normal-boot.jpg "Asus Zenfone 2 Bootloader")
+![Asus Zenfone 2 Bootloader](normal-boot.jpg "Asus Zenfone 2 Bootloader")
 
 A questo punto eseguiti comandi uno dopo l'altro aspettando che ciascun termini prima di eseguire il successivo:
 
@@ -100,11 +100,11 @@ Una volta in modalità bootloeader, collegate il dispositivo al computer tramite
 
 Utilizzante il pulsante del volume per scegliere "RECOVERY MODE" e premete il tasto di accensione per confermare.
 
-![Alt text](recovery-mode.jpg "Asus Zenfone 2 Start Recovery Mode")
+![Asus Zenfone 2 Start Recovery Mode](recovery-mode.jpg "Asus Zenfone 2 Start Recovery Mode")
 
 Il dispositivo si riavvierà in modalità Recovery come nella seguente immagine:
 
-![Alt text](recovery-mode-2.jpg "Asus Zenfone 2 Recovery Mode")
+![Asus Zenfone 2 Recovery Mode](recovery-mode-2.jpg "Asus Zenfone 2 Recovery Mode")
 
 ###### N.B: potreste ottenere una schermata di errore a questo punto. Per risolvere e avviare la Recovery Mode, tenete premuto il tasto di accesione e premete il pulsante "Volume UP" una volta, apparirà la Recovery Mode.
 
