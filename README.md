@@ -78,7 +78,6 @@ sudo fastboot flash /system/bin/logcat installer
 sudo fastboot oem stop_partitioning
 sudo fastboot reboot
 ```
-
 Il procedimento di Rooting è terminato, il dispositivo si avvierà normalmente dopo l'ultimo comando.
 
 Come ultima verifica dell'avvenuto Rooting del dispositivo, controllate che l'APP SuperSU sia installata e funzionante. Avviatela, sarà richiesto di eseguire l'aggiornamento.
@@ -126,6 +125,7 @@ fastboot flash droidboot droidboot.img
 fastboot flash boot boot.img
 fastboot flash recovery recovery.img
 ```
+Eseguire il flash sulla partizione system richiede maggiore tempo e potrebbe fallire, nel caso si verifichino errori disconnettete il cavo USB, riconettete il dispositivo, verificate che il dispositivo sia stato riconosciuto con il comando "fastboot devices" e ripetete l'operazione "fastboot flash system system.img".
 
 ###### Controllate che i comandi siano andati tutti a buon fine.
 
