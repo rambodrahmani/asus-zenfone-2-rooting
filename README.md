@@ -90,6 +90,8 @@ In caso di problemi, possiamo riportare l'Asus Zenfone alle impostazioni di fabr
 Scaricate i file necessari che trovate nella seguente cartella:
 https://mega.nz/#F!6NghzDxD!_aYe4M8VfPU92-2cqg7f7w
 
+Elenco Download completo files system.img e recovery pre-root disponibile al seguente indirizzo: https://mega.nz/#F!k4MHiAgL!dVuOKeH3eokcwPSNI79ffw
+
 Estraete i contenuti di Z00A_WW_2.20.40.164.zip (dentro questa cartella dovrete anche estrarre "system.img.zip"), mentre il file UL-Z00A-WW-2.20.40.164-user.zip non dovrete extrarlo.
 
 Spegnete completamente il dispositivo.
