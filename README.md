@@ -148,4 +148,4 @@ Il dispositivo si riavvierà con le caratteristiche di fabbrica.
 - http://forum.xda-developers.com/zenfone2/general/root-newbie-root-instructions-zenfone-2-t3114063
 - http://www.androidiani.com/forum/asus-zenfone-2/495130-guida-su-come-riportare-zenfone-2-firmware-stock-e-cancellare-twrp.html
 
-Rambod Rahmani <rambodrahmani@autistici.org>
+Rambod Rahmani <<rambodrahmani@autistici.org>>
